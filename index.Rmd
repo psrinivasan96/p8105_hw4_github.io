@@ -1,12 +1,16 @@
 ---
-title: "My awesome website"
+title: "Pavithra's Website"
 output: 
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
 ---
 
-# This is Jeff's awesome website
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+## Introduction
+
+Hello and Welcome!
+
+![](images/pav1.jpg)
+
+My name is Pavithra Srinivasan and I am from Seattle, WA. I moved to New York to start the MS Epidemiology program at Columbia University. I went to undergrad at Baylor University, and then worked at a public health agency shortly after. My goal is to pursue higher degrees for both academic and professional growth. I love to dance, cook and go on hikes in my free time. Take a look around my website to learn more about me. 
