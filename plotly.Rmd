@@ -1,0 +1,40 @@
+---
+title: "Problem 2"
+output:
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+
+---
+
+```{r}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+install.packages("plotly")
+library(plotly)
+```
+
+### Creating a flexdashboard
+
+```{r}
+data("rest_inspec")
+
+df_rest_inspec = 
+  rest_inspec |>
+  select(
+    boro, inspection_date, cuisine_description, score, street, zipcode, grade) |>
+  arrange(inspection_date) |>
+  mutate(boro = str_to_title(boro)) |>
+  drop_na()
+
+df_rest_inspec |>
+  plot_ly(y = ~score, color = ~boro, type = "box")
+```
+
+
+
+
+
+
+
