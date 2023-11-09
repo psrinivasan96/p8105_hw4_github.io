@@ -13,3 +13,9 @@ Hello and Welcome to my Website!
 
 ![](images/pav1.jpg)
 
+
+## Links
+
+* [My Github Repo](https://github.com/psrinivasan96/p8105_hw4_github.io.git)
+* [About me](about.html)
+* [Plots for New York Restaurant Inspections](plotly.html)
